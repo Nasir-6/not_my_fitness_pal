@@ -14,12 +14,12 @@ public class PersonController {
         this.personService = personService;
     }
 
-    @GetMapping(path = "people")
+    @GetMapping(path = "person/all")
     public List<Person> getPeople() {
         return personService.getAllPeople();
     }
 
-    @GetMapping(path = "people/{id}")
+    @GetMapping(path = "person/{id}")
     public Person getPersonById(@PathVariable("id") Integer personId) {
         return personService.getPersonById(personId);
     }
