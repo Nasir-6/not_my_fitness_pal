@@ -21,7 +21,7 @@ public class FoodController {
         foodService.addFoodEntry(food);
     }
 
-    @GetMapping(path = "getAllFood")
+    @GetMapping(path = "food/all")
     public List<Food> foodList() {
         return foodService.getAllFoodEntries();
     }
