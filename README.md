@@ -18,7 +18,7 @@ By Aaron, Marcy, Nasir, Sarina and Suraaj.
 
 A back-end food tracking API project using Java, Spring and PostgreSQL database.
 
-Our database consits of two tables; people and food entries
+Our database consists of two tables; people and food entries
 ## Setup Instructions
 
     1. Clone the Repo: git clone git@github.com:Nasir-6/not_my_fitness_pal.git

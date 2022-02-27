@@ -140,7 +140,7 @@ public class FoodService {
             throw new InvalidRequestException("invalid week");
         }
 
-        // Call the sql implmentation here
+        // Call the sql implementation here
 
         List<PersonDailyCalorieGoal> calorieGoalsList = foodDao.getDailyCalorieGoalsByWeekByDay(week, day);
 
