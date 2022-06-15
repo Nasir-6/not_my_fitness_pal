@@ -6,11 +6,14 @@ Counting your Calories without judgement.
 By Aaron, Marcy, Nasir, Sarina and Suraaj.
 
 
-
-
-
-
-
+## Table of contents
+<!--ts-->
+* [Project Description](#project-description)
+* [Setup Instructions](#installation)
+* [Usage](#usage)
+    * [JSON Object Formats](#json-object-formats)
+    * [Table of HTTP Request Paths](#table-of-http-request-paths)
+<!--te-->
 
 
 
@@ -24,9 +27,9 @@ Our database consists of two tables; people and food entries
     1. Clone the Repo: git clone git@github.com:Nasir-6/not_my_fitness_pal.git
     2. Open IntelliJ
     3. Refer to Database setup queries.md
+
+
 ## Usage
-
-
 #### JSON Object Formats
 
 ```http
