@@ -31,8 +31,8 @@ This project was the Back-end group project as part of the Bright Network Techno
 ## Setup Instructions
 
     1. Clone the Repo: git clone git@github.com:Nasir-6/not_my_fitness_pal.git
-    2. Open IntelliJ
-    3. Refer to Database setup queries.md
+    2. Create the not_my_fitness_pal database - refer to the Database setup queries.md file (postgreSQL must be installed) 
+    3. Open the project using IntelliJ and run the NotMyFitnessPalApplication (It should run on port 8080 unless another application is using this port)
 
 
 ## Usage
