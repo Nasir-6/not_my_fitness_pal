@@ -19,9 +19,13 @@ By Aaron, Marcy, Nasir, Sarina and Suraaj.
 
 ## Project Description
 
-A back-end food tracking API project using Java, Spring and PostgreSQL database.
+A back-end food/calorie tracking API project which gives developers access to basic CRUD functionalities such as adding, deleting, updating and retrieving food entries for a specified user with the aim of it being the foundations for a full-stack calorie tracking application.
 
-Our database consists of two tables; people and food entries
+This project was built using Java, Springboot and a PostgreSQL database.
+
+This project was the Back-end group project as part of the Bright Network Technology Academy - Full Stack Bootcamp (Cohort 4).
+
+
 ## Setup Instructions
 
     1. Clone the Repo: git clone git@github.com:Nasir-6/not_my_fitness_pal.git
@@ -31,16 +35,26 @@ Our database consists of two tables; people and food entries
 
 ## Usage
 #### JSON Object Formats
+Our database consists of two tables; people and food_entries which have the following JSON Formats:
 
 ```http
 Person:
-  { "id": 1, "name": "Bob", "age": 34, "height_in_cm": 177.0, 
-  "weight_in_kg": 78.0, "calorie_target": 3000 }
+  { "id": 1, 
+    "name": "Bob", 
+    "age": 34, 
+    "height_in_cm": 177.0, 
+    "weight_in_kg": 78.0, 
+    "calorie_target": 3000 }
 
 Food_Entry:
-  { "id": 20, "person_id": 5, "name": "avocado on toast", 
-    "mealType": "BREAKFAST", "notes": "sliced avocado on brown bread", 
-    "calories": 200, "week": 1, "day": "TUESDAY" }
+  { "id": 20, 
+    "person_id": 5, 
+    "name": "avocado on toast", 
+    "mealType": "BREAKFAST", 
+    "notes": "sliced avocado on brown bread", 
+    "calories": 200, 
+    "week": 1, 
+    "day": "TUESDAY" }
 ```
 #### Table of HTTP Request Paths
 
