@@ -88,7 +88,7 @@ In order to use the CRUD functionalities, the following HTTP paths are available
 ## Features in action
 Here are some gifs and images of the application features
 ### Post and Get request
-![post and get request in action](https://github.com/Your_Repository_Name/Your_GIF_Name.gif)
+![post and get request in action](https://github.com/Nasir-6/not_my_fitness_pal/blob/main/readme-feature-gifs-images/post_get_demo.gif)
 ## Acknowledgements
 
 - [Aaron](https://github.com/Aaron-Nazareth)
