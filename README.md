@@ -19,6 +19,8 @@ By Aaron, Marcy, Nasir, Sarina and Suraaj.
   * [Further Get Requests](#further-get-requests)
   * [Custom Response Error Messages](#custom-response-error-messages)
 * [Tests](#tests)
+* [Future Improvements](#future-improvements)
+* [Contributors](#contributors)
 
 <!--te-->
 
@@ -126,7 +128,19 @@ A huge part of this project was the Test Driven Development of much of the API. 
 ![person service test results](https://github.com/Nasir-6/not_my_fitness_pal/blob/main/readme-gifs-images/person_service_tests.jpg)
 ![food service test results](https://github.com/Nasir-6/not_my_fitness_pal/blob/main/readme-gifs-images/food_service_tests.jpg)
 
-## Acknowledgements
+## What we learnt
+- How to plan,structure and develop a Java/SpringBoot back-end application with a postgresql database
+- How to use GitHub for collaboration (using branches and dealing with merge conflicts)
+- The benefit and application of Test Driven Development
+- Greater understanding of Java testing concepts (mocking, argument captors etc.)
+- Implementing custom exception classes
+
+## Future improvements
+- Completely integrate/develop/test the calorie target (stretch goal) feature 
+- Expand to include exercise data to integrate calories burnt into the API
+- Use H2 in memory databases to test DataAccessService Classes
+
+## Contributors
 
 - [Aaron](https://github.com/Aaron-Nazareth)
 - [Marcy](https://github.com/mycp98)
