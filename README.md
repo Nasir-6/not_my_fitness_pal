@@ -121,7 +121,10 @@ Here the new entry with an id of 29 is updated using the put request (The id is 
 Here you can see the various error messages shown to the user, letting them know exactly what is wrong with their requests. These were created using custom Java Exception classes available in the spring framework.
 
 ## Tests
+A huge part of this project was the Test Driven Development of much of the API. All of the person service class aswell as most of the food service class (excluding the stretch goal implementation) was developed using TDD and as the images below show over 90+ tests were written for this application. The tests files can be run using the IntelliJ IDE as shown in the images below.
 
+![person service test results](https://github.com/Nasir-6/not_my_fitness_pal/blob/main/readme-gifs-images/person_service_tests.jpg)
+![food service test results](https://github.com/Nasir-6/not_my_fitness_pal/blob/main/readme-gifs-images/food_service_tests.jpg)
 
 ## Acknowledgements
 
