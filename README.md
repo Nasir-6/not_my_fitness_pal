@@ -18,7 +18,7 @@ By Aaron, Marcy, Nasir, Sarina and Suraaj.
   * [Put and Delete Request](#put-and-delete-request)
   * [Further Get Requests](#further-get-requests)
   * [Custom Response Error Messages](#custom-response-error-messages)
-*[Tests](#tests)
+* [Tests](#tests)
 
 <!--te-->
 
