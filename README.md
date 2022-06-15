@@ -86,7 +86,9 @@ In order to use the CRUD functionalities, the following HTTP paths are available
 **Server Note: Please ensure the server is running on port 8080 or adjust the port number (8080) to the one you are currently running.**
 
 ## Features in action
-
+Here are some gifs and images of the application features
+### Post and Get request
+![post and get request in action](https://github.com/Your_Repository_Name/Your_GIF_Name.gif)
 ## Acknowledgements
 
 - [Aaron](https://github.com/Aaron-Nazareth)
