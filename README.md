@@ -13,6 +13,8 @@ By Aaron, Marcy, Nasir, Sarina and Suraaj.
 * [Usage](#usage)
     * [JSON Object Formats](#json-object-formats)
     * [Table of HTTP Request Paths](#table-of-http-request-paths)
+* [Features in action](#features-in-action)
+  * 
 <!--te-->
 
 
@@ -57,8 +59,8 @@ Food_Entry:
     "day": "TUESDAY" }
 ```
 #### Table of HTTP Request Paths
-
-localhost:8080/ ...
+In order to use the CRUD functionalities, the following HTTP paths are available using the path 
+"localhost:8080" appended with the desired HTTP request path:
 
 | HTTP Request Path                               | Request Type | Description                                                     |
 |:------------------------------------------------|:-------------|:----------------------------------------------------------------|
@@ -81,7 +83,9 @@ localhost:8080/ ...
 
 **Note: Last HTTP Request is a Stretch Goal**
 
+**Server Note: Please ensure the server is running on port 8080 or adjust the port number (8080) to the one you are currently running.**
 
+## Features in action
 
 ## Acknowledgements
 
