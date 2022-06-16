@@ -19,6 +19,7 @@ By Aaron, Marcy, Nasir, Sarina and Suraaj.
   * [Further Get Requests](#further-get-requests)
   * [Custom Response Error Messages](#custom-response-error-messages)
 * [Tests](#tests)
+* [What we learnt](#what-we-learnt)
 * [Future Improvements](#future-improvements)
 * [Contributors](#contributors)
 
