@@ -9,9 +9,9 @@ By Aaron, Marcy, Nasir, Sarina and Suraaj.
 ## Table of contents
 <!--ts-->
 * [Project Description](#project-description)
-* [Setup Instructions](#installation)
+* [Setup Instructions](#setup-instructions)
 * [Usage](#usage)
-    * [JSON Object Formats](#json-object-formats)
+    * [JSON Formats](#json-formats)
     * [Table of HTTP Request Paths](#table-of-http-request-paths)
 * [Features in Action](#features-in-action)
   * [Post and Get Request](#post-and-get-request)
