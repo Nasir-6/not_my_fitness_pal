@@ -31,16 +31,17 @@ By Aaron, Marcy, Nasir, Sarina and Suraaj.
 
 A back-end food/calorie tracking API project which gives developers access to basic CRUD functionalities such as adding, deleting, updating and retrieving food entries for a specified user with the aim of it being the foundations for a full-stack calorie tracking application.
 
-This project was built using Java, Springboot and a PostgreSQL database.
+This project was built using Java (Spring Boot) and a PostgreSQL database.
 
-This project was the Back-end group project as part of the Bright Network Technology Academy - Full Stack Bootcamp (Cohort 4).
+This project was the back-end group project as part of the Bright Network Technology Academy - Full Stack Bootcamp (Cohort 4).
 
 
 ## Setup Instructions
 
-    1. Clone the Repo: git clone git@github.com:Nasir-6/not_my_fitness_pal.git
-    2. Create the not_my_fitness_pal database - refer to the Database setup queries.md file (postgreSQL must be installed) 
-    3. Open the project using IntelliJ and run the NotMyFitnessPalApplication (It should run on port 8080 unless another application is using this port)
+1. Clone the Repo: 
+```git clone git@github.com:Nasir-6/not_my_fitness_pal.git```
+2. Create the not_my_fitness_pal database - refer to the [Database setup queries.md](https://github.com/Nasir-6/not_my_fitness_pal/blob/main/Database%20setup%20queries.md) file (PostgreSQL must be installed) 
+3. Open the project using IntelliJ and run the NotMyFitnessPalApplication (It should run on port 8080 unless another application is using this port)
 
 
 ## Usage
@@ -73,20 +74,20 @@ In order to use the CRUD functionalities, the following HTTP paths are available
 | HTTP Request Path                               | Request Type | Description                                                     |
 |:------------------------------------------------|:-------------|:----------------------------------------------------------------|
 | `.../getAllFood `                               | `GET`        | Get All Food Entries                                            |
-| `.../food/{id} `                                | `GET`        | Get Food Entries by Food Id                                     |
-| `.../food/person/{id} `                         | `GET`        | Get Food Entries By Person's Id                                 |
-| `.../food/person/{id}/week/{week} `             | `GET`        | Get Food Entries By Person's Id and Week                        |
-| `.../food/person/{id}/week/{week}/day/{day} `   | `GET`        | Get Food Entries By Person's Id and Week and Day                |
+| `.../food/{id} `                                | `GET`        | Get Food Entries by Food ID                                     |
+| `.../food/person/{id} `                         | `GET`        | Get Food Entries By Person's ID                                 |
+| `.../food/person/{id}/week/{week} `             | `GET`        | Get Food Entries By Person's Id for a specific Week                        |
+| `.../food/person/{id}/week/{week}/day/{day} `   | `GET`        | Get Food Entries By Person's ID for a specific Day of a given Week                |
 | `.../food/mealtype/{mealtype} `                 | `GET`        | Get Food Entries By Meal Type                                   |
-| `.../food `                                     | `POST`       | Add Food Entry (use Food-Entry JSON excluding id)               |
-| `.../food /{id}`                                | `PUT`        | Update Food Entry By Food Id (use Food-Entry JSON excluding id) |
+| `.../food `                                     | `POST`       | Add Food Entry (use Food-Entry JSON excluding ID)               |
+| `.../food /{id}`                                | `PUT`        | Update Food Entry By Food ID (use Food-Entry JSON excluding ID) |
 | `.../food/{id} `                                | `DELETE`     | Delete Food Entry                                               |
 | `.../people `                                   | `GET`        | Get All People                                                  |
-| `.../people/{id} `                              | `GET`        | Get Person By Person's Id                                       |
-| `.../person `                                   | `POST`       | Add Person (use person JSON excluding id)                       |
-| `.../person/{id} `                              | `DELETE`     | Delete Person By Person's Id                                    |
-| `.../person/{id} `                              | `PUT`        | Update Person By Person's Id (use person JSON excluding Id)     |
-| `.../food/calorie_goals/week/{week}/day/{day} ` | `GET`        | Get Daily Calories Goal By Week and Day for all users           |
+| `.../people/{id} `                              | `GET`        | Get Person By Person's ID                                       |
+| `.../person `                                   | `POST`       | Add Person (use person JSON excluding ID)                       |
+| `.../person/{id} `                              | `DELETE`     | Delete Person By Person's ID                                    |
+| `.../person/{id} `                              | `PUT`        | Update Person By Person's ID (use person JSON excluding ID)     |
+| `.../food/calorie_goals/week/{week}/day/{day} ` | `GET`        | Get Daily Calories Goal for a given day of a given week for all users           |
 
 
 **Note: Last HTTP Request is a Stretch Goal**
@@ -94,16 +95,15 @@ In order to use the CRUD functionalities, the following HTTP paths are available
 **Server Note: Please ensure the server is running on port 8080 or adjust the port number (8080) to the one you are currently running.**
 
 ## Features in action
-Here are some gifs and images of the application features
 ### Post and Get request
 ![post and get request in action](https://github.com/Nasir-6/not_my_fitness_pal/blob/main/readme-gifs-images/post_get_demo.gif)
-As you can see the last entry in the database has an id of 28 and a new entry with an id of 29 is added using the food entry JSON format as the request body. 
+As you can see the last entry in the database has an ID of 28 and a new entry with an ID of 29 is added using the food entry JSON format as the request body. 
 
-Note: The id (29) is in the request body mainly for demonstration purposes but it is not needed in practice as it is serially generated by the SQL database.
+Note: The ID (29) is in the request body mainly for demonstration purposes but it is not needed in practice as it is serially generated by the SQL database.
 
 ### Put and Delete request
 ![put and delete request in action](https://github.com/Nasir-6/not_my_fitness_pal/blob/main/readme-gifs-images/put_delete_demo.gif)
-Here the new entry with an id of 29 is updated using the put request (The id is not required within the request body). It is then deleted using just the id in the request path.
+Here the new entry with an ID of 29 is updated using the put request (The ID is not required within the request body). It is then deleted using just the ID in the request path.
 
 
 ### Further Get Requests
@@ -121,7 +121,7 @@ Here the new entry with an id of 29 is updated using the put request (The id is 
 
 ### Custom Response Error Messages
 ![error responses in action](https://github.com/Nasir-6/not_my_fitness_pal/blob/main/readme-gifs-images/errors_demo.gif)
-Here you can see the various error messages shown to the user, letting them know exactly what is wrong with their requests. These were created using custom Java Exception classes available in the spring framework.
+Here you can see the various error messages shown to the user letting them know exactly what is wrong with their request. These were created using custom Java Exception classes available in the Spring framework.
 
 ## Tests
 A huge part of this project was the Test Driven Development of much of the API. All of the person service class aswell as most of the food service class (excluding the stretch goal implementation) was developed using TDD. As shown below a total of 90 tests were written for this application. The test files can be run using the IntelliJ IDE as shown in the images below.
@@ -130,7 +130,7 @@ A huge part of this project was the Test Driven Development of much of the API. 
 ![food service test results](https://github.com/Nasir-6/not_my_fitness_pal/blob/main/readme-gifs-images/food_service_tests.jpg)
 
 ## What we learnt
-- How to plan,structure and develop a Java/SpringBoot back-end application with a postgresql database
+- How to plan, structure and develop a Java (SpringBoot) back-end application with a PostgreSQL database
 - How to use GitHub for collaboration (using branches and dealing with merge conflicts)
 - The benefit and application of Test Driven Development
 - Greater understanding of Java testing concepts (mocking, argument captors etc.)
