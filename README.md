@@ -87,7 +87,7 @@ In order to use the CRUD functionalities, the following HTTP paths are available
 | `.../person `                                   | `POST`       | Add Person (use person JSON excluding ID)                       |
 | `.../person/{id} `                              | `DELETE`     | Delete Person By Person's ID                                    |
 | `.../person/{id} `                              | `PUT`        | Update Person By Person's ID (use person JSON excluding ID)     |
-| `.../food/calorie_goals/week/{week}/day/{day} ` | `GET`        | Get Daily Calories Goal for a given day of a given week for all users           |
+| `.../food/calorie_goals/week/{week}/day/{day} ` | `GET`        | Get Daily Calories Goal for a given Day of a given Week for all users           |
 
 
 **Note: Last HTTP Request is a Stretch Goal**
